@@ -24,7 +24,7 @@ func main() {
 	checkError(err)
 
 	result, err := readFully(conn)
-	//result, err := io.readAll(conn)
+	// result, err := ioutil.ReadAll(conn)
 	checkError(err)
 
 	fmt.Println(string(result))

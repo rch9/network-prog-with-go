@@ -10,7 +10,7 @@ import (
 	"os"
 )
 
-const myIPAddress = "192.168.1.2"
+const myIPAddress = "0.0.0.0" //"192.168.1.2"
 const ipv4HeaderSize = 20
 
 func main() {
